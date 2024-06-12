@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guitar_learning</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .learning_container{
+        width: 770px;
+        height: calc(768px - 65px - 20px - 29px);
+    }
+    .learning_table{
+        width: 600px;
+        height: 20px;
+        margin: auto;
+        text-align: center;
+    }
+    .learning_content{
+        font-size:16px; 
+        font-family:標楷體; 
+        color:#000000;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .box{
+        transition: all 0.3s ease;
+    }
+    .box:hover{
+        font-size: 20px;
+        color: #ff0000;
+    }
+</style>
+<body>
+    <div class="learning_container">
+        <p style="font-size:18px; font-family:標楷體; color:#ff0000; text-align: center;">吉他社教學內容</p>
+        <div>
+            <table class="learning_table">
+                <tr>
+                    <td><a href="./main.html">回社團介紹首頁</a></td>
+                    <td><a href="./guitar_history.html">吉他社社史</a></td>
+                    <td><a href="./guitar_event.html">吉他社近期活動公告</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="learning_content">
+            <p class="box">基礎樂理</p>
+            <p class="box">常用之吉他技巧</p>
+            <p class="box">音程介紹以及音程表內容</p>
+            <p class="box">節奏型態</p>
+            <p class="box">和絃及級數和絃</p>
+            <p class="box">和絃公式</p>
+            <p class="box">轉位複合</p>
+            <p class="box">調音法</p>
+            <p class="box">吉他的保養</p>
+            <p class="box">如何轉調</p>
+        </div>
+    </div>
+</body>
+</html>
